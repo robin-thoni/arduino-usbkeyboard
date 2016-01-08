@@ -162,6 +162,9 @@ PROGMEM char usbHidReportDescriptor[35] = { /* USB report descriptor */
 #define KEYP_PLUS       87
 #define KEYP_ENTER      88
 
+
+#define KEYP_NUS_BSLASH 100
+
 class UsbKeyboardDevice {
  public:
   UsbKeyboardDevice () {
