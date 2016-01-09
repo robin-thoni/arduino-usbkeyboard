@@ -210,7 +210,7 @@ int UsbKeyboardDevice::charToKeyAzerty(int c, int* modifier)
 }
 #endif
 
-#ifdef ARD_USBKBD_AZERTY
+#ifdef ARD_USBKBD_QWERTY
 int UsbKeyboardDevice::charToKeyQwerty(int c, int* modifier)
 {
     *modifier = 0;
