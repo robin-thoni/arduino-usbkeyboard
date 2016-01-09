@@ -33,4 +33,5 @@ void loop()
 
 
     digitalWrite(ledPin, !digitalRead(ledPin));
+    while(1);
 }
