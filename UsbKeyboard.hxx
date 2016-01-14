@@ -53,7 +53,7 @@ UsbKeyboardDevice::UsbKeyboardDevice(const char* layout)
     //       missing first keystroke bug properly.
     memset(reportBuffer, 0, sizeof(reportBuffer));
     usbSetInterrupt(reportBuffer, sizeof(reportBuffer));
-    setLayout("us");
+    setLayout(layout);
 }
 
 bool UsbKeyboardDevice::isUsbReady()
